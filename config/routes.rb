@@ -1,6 +1,5 @@
 # config/routes.rb
 
-require File.join(File.dirname(__FILE__), '../', 'lib', 'router.rb')
 require File.join(File.dirname(__FILE__), '../', 'lib', 'brain_rack')
 
 BrainRackApplication = BrainRack.new
